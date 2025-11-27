@@ -353,7 +353,8 @@
             <div class="order-1 md:order-2 relative reveal" style="transition-delay: 200ms;">
                 <div class="relative w-full aspect-square max-w-lg xl:max-w-2xl mx-auto">
                     <div class="absolute inset-0 bg-gradient-to-tr from-primary to-secondary rounded-full opacity-20 blur-3xl animate-pulse"></div>
-                    <img src="https://instasize.com/api/image/e8da0ace759a5673ea5ae8567fe35297b1ae9af0369c118b43047f44d618bc39.jpeg" alt="Yugesh Profile" class="relative w-full h-full object-cover rounded-2xl rotate-3 hover:rotate-0 transition-transform duration-700 border border-white/10 shadow-2xl shadow-primary/20">
+                    <!-- Added onerror fallback -->
+                    <img src="https://instasize.com/api/image/e8da0ace759a5673ea5ae8567fe35297b1ae9af0369c118b43047f44d618bc39.jpeg" onerror="this.src='https://ui-avatars.com/api/?name=Yugeswaran+D&background=0D8ABC&color=fff&size=500'" alt="Yugesh Profile" class="relative w-full h-full object-cover rounded-2xl rotate-3 hover:rotate-0 transition-transform duration-700 border border-white/10 shadow-2xl shadow-primary/20">
                     
                     <div class="absolute -bottom-8 -left-8 glass p-6 rounded-2xl border border-white/10 shadow-xl animate-bounce" style="animation-duration: 3s;">
                         <div class="flex items-center gap-4">
